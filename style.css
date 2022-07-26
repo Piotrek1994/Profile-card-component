@@ -7,15 +7,29 @@
 body {
 	display: flex;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 	height: 100vh;
 	background-color: hsl(185, 75%, 39%);
 	background-image: url('/images/bg-pattern-top.svg');
 }
 
 .card {
-    width: 25rem;
-    height: 25rem;
-    border-radius: 1rem;
-    background-color: #fff;
+	width: 22rem;
+	height: 25rem;
+	border-radius: 1rem;
+	background-color: #fff;
+	overflow: hidden;
 }
+
+.card-top {
+	height: 35%;
+	background-image: url('./images/bg-pattern-card.svg');
+}
+
+.card-mid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
