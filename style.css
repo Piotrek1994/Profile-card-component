@@ -45,6 +45,7 @@ body {
 }
 
 .card-mid_years {
+    margin-left: .3rem;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.566);
 }
@@ -69,6 +70,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 25%;
+    padding: 1.2rem;
     font-size: 1.3rem;
 
 }
