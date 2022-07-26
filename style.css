@@ -11,9 +11,11 @@ body {
 	height: 100vh;
 	background-color: hsl(185, 75%, 39%);
 	background-image: url('/images/bg-pattern-top.svg');
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .card {
+    position: relative;
 	width: 22rem;
 	height: 25rem;
 	border-radius: 1rem;
@@ -30,6 +32,33 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    height: 40%;
 }
 
+.card-img {
+    position: absolute;
+    top: 5.5rem;
+    border-radius: 50%;
+    border: 4px solid white;
+}
 
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    font-size: 1.3rem;
+
+}
+
+.card-bottom_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+.social-info {
+    font-size: 12px;
+    font-weight: 400;
+}
